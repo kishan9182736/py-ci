@@ -41,8 +41,7 @@ def main() -> None:
     else:
         subject = f"❌ CI Failed — {repository}"
         headline = (
-            f"The GitHub Actions CI pipeline finished "
-            f"with status: {status} :(."
+            f"The GitHub Actions CI pipeline finished " f"with status: {status} :(."
         )
 
     body = f"""\
